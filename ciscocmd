@@ -75,7 +75,7 @@
 # New way to load tclx without specify the path :-)
 
 # The next line store the args in memory \
-IFS='µ' ; export ARGS=$@
+IFS='µ' ; export ARGS="$*"
 # the next line restarts using expect \
 exec expect  -- "$0" 
 
